@@ -46,7 +46,7 @@ It allows you to:
 
 ## 🧰 Prerequisites
 
-- Node.js v20.19  
+- Node.js 20+    
 - npm or yarn  
 - Employee Management Backend running locally or deployed
 
