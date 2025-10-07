@@ -1,6 +1,51 @@
-### How to install app
+# Employee Management Backend
 
-1. Clone the repository by running the command `git clone https://github.com/Prathamesh625/employee_management`
-2. Install dependencies by running the command `npm install`
-3. Start the development server by running the command `npm run dev`
-4. Open [http://localhost:5173](http://localhost:5173) in your web browser to view the application.
+# setup instructions
+
+cd backend
+
+npm install
+
+npx prisma init --datasource-provider sqlite --output ../generated/prisma
+
+npx prisma migrate dev --name init
+
+npm run dev
+
+This is the **backend** for the Employee Management System, built using **Node.js**, **Express.js**, and **Prisma ORM**.  
+It provides RESTful APIs to **create, read, update, and delete employees**, and is fully compatible with the React frontend.
+
+---
+
+## 🚀 Features
+
+- CRUD operations for employees
+- Input validation using **Zod**
+- Modern RESTful API design
+- sqlite database integration via **Prisma**
+- Environment-based configuration
+
+
+---
+
+## 🧰 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Node.js + Express | Server & routing |
+| Prisma ORM | Database management |
+| sqlite | Relational database |
+| Zod | Validation for forms & API input |
+| JWT (optional) | Authentication & authorization |
+| dotenv | Environment variables |
+
+---
+
+## ⚙️ Prerequisites
+
+- Node.js 20+  
+- npm  
+- sqlite database  
+- Git  
+
+---
