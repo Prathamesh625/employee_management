@@ -3,7 +3,7 @@
 
 # setup instructions
 
-cd frontend
+cd employee_management/frontend
 
 npm install
 
