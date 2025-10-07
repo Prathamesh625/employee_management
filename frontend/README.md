@@ -39,4 +39,3 @@ It allows you to:
 
 - Node.js 20+    
 - npm or yarn  
-- Employee Management Backend running locally or deployed
