@@ -1,5 +1,8 @@
 ## Employee Management
 
 
-# for frontend setup 
+### for frontend setup
+
+**cd employee_management
+
 
