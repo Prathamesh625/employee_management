@@ -2,7 +2,7 @@
 
 # setup instructions
 
-cd backend
+cd employee_management/backend
 
 npm install
 
@@ -47,5 +47,6 @@ It provides RESTful APIs to **create, read, update, and delete employees**, and 
 - npm  
 - sqlite database  
 - Git  
+
 
 
