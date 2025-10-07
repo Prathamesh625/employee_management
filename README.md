@@ -53,8 +53,6 @@ It allows you to:
 
 # Employee Management Backend
 
-# 🧑‍💼 Employee Management Backend
-
 # setup instructions
 
 cd backend
