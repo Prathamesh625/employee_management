@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "dist",
+    "paths": {
+      "@controllers/*": ["./src/controllers/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@services/*": ["./src/services/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@config/*":["./src/config/*"]
+  }
+},
+  "lib": ["es2015"],
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules"
+  ]
+}
