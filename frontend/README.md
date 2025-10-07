@@ -1,8 +1,9 @@
 # 🧑‍💼 Employee Management Frontend
 
-cd frontend
 
 # setup instructions
+
+cd frontend
 
 npm install
 
